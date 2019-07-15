@@ -79,7 +79,7 @@ nav {
 nav a {
 	text-align: center; 
 	text-decoration: none;
-	color: gray;
+	color: #bcbcbc;
 	margin: 34px 37px;
 	vertical-align: super;
 }
@@ -140,7 +140,7 @@ h2 {
 
 .middle-img{
 	width: 100%;
-	height: 250px;
+	height: 100%;
 }
 
 .bottomContent {
@@ -182,7 +182,7 @@ footer{
 
 /* responsive styles */
 
-/* tablet */
+/* tablet (800px) */
 @media screen and (max-width: 800px){
    .container {
        max-width: 100%;
@@ -207,5 +207,48 @@ footer{
     
     .bottomInfo {
         width: 32%
+    }
+}
+
+/* phone (500px)*/
+@media screen and (max-width: 500px){
+    header {
+        height: 590px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .main-bar{  
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .logo {
+        border-bottom: 1px solid black;
+        width: 500px;
+        text-align: center
+    }
+
+    .main-bar a {
+        margin: 3% 0%;
+        padding: 3% 0%;
+        border-bottom: 1px solid black;
+        font-size: 25px;
+        font-weight: 600;
+        width: 500px;
+
+    }
+
+    .topContent, .bottomContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topInfo, .bottomInfo {
+        width: 100%;
+        padding: 0% 2%
     }
 }
