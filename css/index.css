@@ -147,7 +147,8 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 3%;
+    margin-top: 3%;
+    width: 100%;
 }
 .bottomInfo{
 	width: 316px;
@@ -181,4 +182,30 @@ footer{
 
 /* responsive styles */
 
+/* tablet */
+@media screen and (max-width: 800px){
+   .container {
+       max-width: 100%;
+   }
+    /* make nav column-reverse */
+    nav {   
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .logo{
+        padding: 3% 0%
+    }
 
+    .intro {
+        padding: 6% 0%;
+    }
+    /* make header img disapear */
+    .top-img {
+        display: none;
+    }
+    
+    .bottomInfo {
+        width: 32%
+    }
+}
