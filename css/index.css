@@ -228,17 +228,17 @@ footer{
 
     .logo {
         border-bottom: 1px solid black;
-        width: 500px;
+        width: 483px;
         text-align: center
     }
 
     .main-bar a {
-        margin: 3% 0%;
-        padding: 3% 0%;
+        margin: 0% 0%;
+        padding: 6% 0%;
         border-bottom: 1px solid black;
         font-size: 25px;
         font-weight: 600;
-        width: 500px;
+        width: 483px;
 
     }
 
